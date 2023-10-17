@@ -1,0 +1,27 @@
+{
+    "name": "blazephp/blaze",
+    "description": "BlazePHP. Blazingly Fasy",
+    "type": "project",
+    "require": {
+        "vlucas/phpdotenv": "^5.5",
+        "symfony/console": "^6.3",
+        "symfony/var-dumper": "^6.3",
+        "guzzlehttp/guzzle": "^7.8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.4"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "BlazePHP\\Blaze\\": "src/",
+            "BlazePHP\\App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "HansenKhi",
+            "email": "hansenkhyx@gmail.com"
+        }
+    ]
+}
