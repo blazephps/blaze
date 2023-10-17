@@ -1,6 +1,6 @@
 {
     "name": "blazephp/blaze",
-    "description": "BlazePHP. Blazingly Fasy",
+    "description": "BlazePHP. Amazingly Fast",
     "type": "project",
     "require": {
         "vlucas/phpdotenv": "^5.5",
